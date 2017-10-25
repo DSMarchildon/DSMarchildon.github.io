@@ -4,9 +4,12 @@ body {
 h1 {
     color: black;
     text-align: center;
-    font-family: verdana;
+    font-family: courier;
+}
+h2 {
+    font-family: courier;
 }
 p {
     color: black;
-    font-family: verdana;
+    font-family: courier;
 }

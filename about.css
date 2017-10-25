@@ -2,9 +2,10 @@ body {
     background-color: white;
 }
 h1 {
-    color: blue;
+    color: black;
     text-align: center;
+    font-family: courier;
 }
 p {
-    color: red;
+    color: black;
 }

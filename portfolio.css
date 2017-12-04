@@ -43,4 +43,11 @@ li a {
     text-decoration: none;
     padding: 6px 18px 5px 18px;
     
+.container{
+	display:grid;
+	grid-template-columns:repeat(auto-fit,minmax(200px,200px));
+	grid-gap:10px;
+	padding-top:18px;
+}    
+    
 }    

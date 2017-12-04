@@ -27,6 +27,7 @@ h2 {
 p {
     color: black;
     font-family: courier;
+    text-align: left;
 }
 
 ul {

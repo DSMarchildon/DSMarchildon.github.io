@@ -2,7 +2,7 @@ body {
     background-color: white;
 }
 
-#page {
+page {
     max-width: 940px;
     min-width: 720px;
     margin: 10px auto 10px auto;

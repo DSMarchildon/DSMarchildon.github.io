@@ -8,12 +8,26 @@
 Enter First Number :
 <br>
 <input type="text" id="Text1" name="TextBox1">
-<br>Enter Second Number :
+<br>
+Enter Second Number :
 <br>
 <input type="text" id="Text2" name="TextBox2">
-<br>Result :
 <br>
-<input type="text" id="txtresult" name="TextBox3">
+Result - Sum :
+<br>
+<input type="text" id="txtresult1" name="TextBox3">
+<br>
+Result - Product :
+<br>
+<input type="text" id="txtresult2" name="TextBox4">
+<br>
+Result - Quotient :
+<br>
+<input type="text" id="txtresult3" name="TextBox5">
+<br>
+Result - Exponentation :
+<br>
+<input type="text" id="txtresult4" name="TextBox6">
 <br>
 <input type="button" name="clickbtn" value="Display Result" onclick="numbers()">
   </body>
@@ -23,11 +37,14 @@ Enter First Number :
 function numbers(){
   var num1 = document.getElementById("Text1").value;
   var num2 = document.getElementById("Text2").value;
-  var result = num1 + num2;
-  var result = num1 * num2;
-  var result = num1 / num2;
-  var result = Math.pow(num1, num2);
-  document.getElementById("txtresult").value = result;
+  var result1 = num1 + num2;
+  var result2 = num1 * num2;
+  var result3 = num1 / num2;
+  var result4 = Math.pow(num1, num2);
+  document.getElementById("txtresult1").value = result1;
+  document.getElementById("txtresult2").value = result2;
+  document.getElementById("txtresult3").value = result3;
+  document.getElementById("txtresult4").value = result4;
 
 }
 

@@ -2,10 +2,6 @@ body {
     background-color: #ffffff;
 }
 
-#portrait {
-    text-align: center;
-}
-
 #page {
     max-width: 940px;
     min-width: 720px;

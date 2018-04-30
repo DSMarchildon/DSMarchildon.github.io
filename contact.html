@@ -62,7 +62,6 @@ $(function()
             $('#success_message').hide();
             $('#error_message').show();
 
-            //reverse the response on the button
             $('button[type="button"]', $form).each(function()
             {
                 $btn = $(this);
@@ -83,7 +82,6 @@ $(function()
         e.preventDefault();
 
         $form = $(this);
-        //show some response on the button
         $('button[type="submit"]', $form).each(function()
         {
             $btn = $(this);
@@ -121,7 +119,6 @@ $(function()
           text-decoration: underline;
         }
 
-        /* IE 6 */
         * html #orig_article_block {
         position:absolute;
         top:expression((0-(footer.offsetHeight)+(document.documentElement.clientHeight ? document.documentElement.clientHeight : document.body.clientHeight)+(ignoreMe = document.documentElement.scrollTop ? document.documentElement.scrollTop : document.body.scrollTop))+'px');

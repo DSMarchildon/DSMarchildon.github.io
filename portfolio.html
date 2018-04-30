@@ -1,13 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-<!-- Global Site Tag (gtag.js) - Google Analytics -->
+  <!-- Global Site Tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106733605-1"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments)};
   gtag('js', new Date());
-
   gtag('config', 'UA-106733605-1');
 </script>
   <meta charset="UTF-8">
@@ -17,11 +16,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="geo.region" content="US-GA">
   <meta name="geo.placename" content="Kennesaw">
-  <title>DSMarchildon Portfolio</title>
-  <link rel="stylesheet" href="portfolio.css">
-  </head>
-  <body>
-   <div id="page">
+<title>DSMarchildon Portfolio</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="writing.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<style>
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 70%;
+      margin: auto;
+  }
+</style>
+</head>
+<body>
+ <div id="page">
   <img src="Dan_Logo_New.png" alt="Dan Logo">
     <ul id="navigation">
     <li><a href="index.html" class="on"><img src="Red_Home_Button_Rounded.png" alt="Home Page Button" style="border:0;"></a></li>
@@ -30,24 +39,84 @@
     <li><a href="writing.html"><img src="Red_Writing_Button_Rounded.png" alt="My Writing Page Button" style="border:0;"></a></li>
     <li><a href="contact.html"><img src="Red_Contact_Button_Rounded.png" alt="My Contact Page Button" style="border:0;"></a></li>
     </ul>
-  <h1>Portfolio</h1>
-    <h2>2016-17</h2>
-      <p>This is my current portfolio which contains mainly school projects, advertisement redesigns, and essays/writings.</p>
-    <h3>Consumer Freedom Ad Redesign</h3>
-      <div class="container">
-        <a href="Redesigned_Consumer_Freedom_Ad_Marchildon.jpg"><img src="Redesigned_Consumer_Freedom_Ad_Marchildon.jpg" alt="A Redesigned Consumer Freedom Ad About Soda Taxes that were proposed in New York City" width="300" height="300"></a>
-        <p>This is a <a href="https://www.consumerfreedom.com/">Consumer Freedom</a> advertisement I redesigned for my <a href="http://catalog.kennesaw.edu/preview_program.php?catoid=29&poid=3842&returnto=2354#">Fundamentals of Information Design</a> course.</p>
-        <p>I was assigned with changing the ad's audience and refocusing the content to reflect that change. The ad is from Consumer Freedom and dealt with the "Soda Tax" issue in New York City. The original ad was abrasive and insulting in nature, so I toned down the content to be more reader and audience friendly.</p>
-        <br>
-    <h3>Hemophilia of Georgia Brochure Redesign</h3>
-      <a href="Hemophilia_of_Georgia_Von_Willebrand_Disease_Brochure_Final.JPG"><img src="Hemophilia_of_Georgia_Von_Willebrand_Disease_Brochure_Final.JPG" alt="The final edit for the von Willebrand Disease brochure from Hemophilia of Georgia" height="300" width="300"></a>
-      <p>This is a <a href="https://www.hog.org/">Hemophilia of Georgia</a> brochure redesign I did for my <a href="http://catalog.kennesaw.edu/preview_program.php?catoid=29&poid=3842&returnto=2354#">Techincal Editing</a> course.</p>
-      <p>The goal was to do several level edits, including format and style edits, to create a better looking document. I took the original brochure and added in sections of important information on the history of von Willebrand's Disease and its treatment regarding women.</p>
-      <br>
-    <h3>Cobb Antique Mall Website Redesign</h3>
-      <a href="Cobb_Antique_Mall_Home_Page_Final_Sample.jpg"><img src="Cobb_Antique_Mall_Home_Page_Final_Sample.jpg" alt="The final redesign for the Cobb Antique Mall's homepage of their website." height="300" width="300"></a>
-      <p>This is a website redesign I did on the <a href="https://www.cobbantiques.com/">Cobb Antique Mall</a>. It was part of a Capstone Project I did for the final of my Fundamentals of Information Design course.</p>
-      <p>The assignment was based around getting a local company to sponsor me in helping them redesign their website. The purpose was to use their guidelines and suggestions to redesign up to 4 of their webpages.
+<h1>My Writings</h1>
+  <div class="container">
+  <h2>Activate Carousel with JavaScript</h2>
+  <div id="myCarousel" class="carousel slide">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li class="item1 active"></li>
+      <li class="item2"></li>
+      <li class="item3"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+
+      <div class="item active">
+        <img src="Redesigned_Consumer_Freedom_Ad_Marchildon.jpg" alt="Consumer Freedom Ad" width="360" height="245">
+        <div class="carousel-caption">
+          <h3>Redesigned Consumer Freedom Ad</h3>
+          <p>This is a Consumer Freedom advertisement I redesigned for my Fundamentals of Information Design course.</p>
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="Hemophilia_of_Georgia_Von_Willebrand_Disease_Brochure_Final.JPG" alt="Von Williebrand Disease Brochure" width="360" height="245">
+        <div class="carousel-caption">
+          <h3>Von Williebrand Disease Brochure</h3>
+          <p>This is a Hemophilia of Georgia brochure redesign I did for my Techincal Editing course.</p>
+        </div>
+      </div>
+    
+      <div class="item">
+        <img src="Cobb_Antique_Mall_Home_Page_Final_Sample.jpg" alt="Cobb Antique Mall Site" width="360" height="245">
+        <div class="carousel-caption">
+          <h3>Cobb Antique Mall Website</h3>
+          <p>This is a website redesign I did on the Cobb Antique Mall. It was part of a Capstone Project I did for the final of my Fundamentals of Information Design course.</p>
+        </div>
+      </div>
+  
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
   </div>
-  </body>
-  </html>
+</div>
+
+<script>
+$(document).ready(function(){
+    // Activate Carousel
+    $("#myCarousel").carousel();
+    
+    // Enable Carousel Indicators
+    $(".item1").click(function(){
+        $("#myCarousel").carousel(0);
+    });
+    $(".item2").click(function(){
+        $("#myCarousel").carousel(1);
+    });
+    $(".item3").click(function(){
+        $("#myCarousel").carousel(2);
+    });
+    
+    // Enable Carousel Controls
+    $(".left").click(function(){
+        $("#myCarousel").carousel("prev");
+    });
+    $(".right").click(function(){
+        $("#myCarousel").carousel("next");
+    });
+});
+</script>
+
+  </div>
+</body>
+</html>

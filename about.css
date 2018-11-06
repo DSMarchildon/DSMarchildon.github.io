@@ -19,14 +19,14 @@ body {
 h1 {
     color: black;
     text-align: center;
-    font-family: courier;
+    font-family: Gill Sans MT;
 }
 h2 {
-    font-family: courier;
+    font-family: Gill Sans MT;
 }
 p {
     color: black;
-    font-family: courier;
+    font-family: Gill Sans MT;
     text-align: left;
 }
 

@@ -7,7 +7,7 @@ body {
     min-width: 720px;
     margin: 10px auto 10px auto;
     padding: 20px;
-    border: 6px solid #000;
+    border: 4px solid #000;
     border-radius: 25px;
     background-color: #ffffff;
     }
@@ -15,14 +15,14 @@ body {
 h1 {
     color: black;
     text-align: center;
-    font-family: courier;
+    font-family: Gill Sans MT;
 }
 h2 {
-    font-family: courier;
+    font-family: Gill Sans MT;
 }
 p {
     color: black;
-    font-family: courier;
+    font-family: Gill Sans MT;
 }
 
 ul {

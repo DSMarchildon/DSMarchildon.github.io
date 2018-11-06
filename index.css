@@ -15,14 +15,14 @@ body {
 h1 {
     color: black;
     text-align: center;
-    font-family: Gill Sans, sans-serif;
+    font-family: Gill Sans MT;
 }
 h2 {
-    font-family: Gill Sans, sans-serif;
+    font-family: Gill Sans MT;
 }
 p {
     color: black;
-    font-family: Gill Sans, sans-serif;
+    font-family: Gill Sans MT;
 }
 
 ul {

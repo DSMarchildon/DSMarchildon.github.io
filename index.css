@@ -15,14 +15,14 @@ body {
 h1 {
     color: black;
     text-align: center;
-    font-family: courier;
+    font-family: gill sans;
 }
 h2 {
-    font-family: courier;
+    font-family: gill sans;
 }
 p {
     color: black;
-    font-family: courier;
+    font-family: gill sans;
 }
 
 ul {

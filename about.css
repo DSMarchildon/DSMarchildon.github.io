@@ -15,7 +15,9 @@ body {
     border-radius: 25px;
     background-color: #ffffff;
     }
-
+div {
+    font-size:20px;
+}
 h1 {
     color: black;
     font-family: Gill Sans MT;
